@@ -1,0 +1,59 @@
+/* Define light and dark theme colors */
+:root {
+  --background-color-light: #f4f7fc;
+  --background-color-dark: #2c3e50;
+  --text-color-light: #333;
+  --text-color-dark: #ecf0f1;
+  --header-bg-light: #ffffff;
+  --header-bg-dark: #34495e;
+  --header-text-light: #333;
+  --header-text-dark: #ecf0f1;
+  --button-bg: #007bff;
+  --button-text: #fff;
+  --button-hover-bg: #0056b3;
+}
+
+body {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.dark .header {
+  background-color: var(--header-bg-dark);
+  color: var(--header-text-dark);
+}
+
+.dark .search-input,
+.dark .sort-button,
+.dark .user-item,
+.dark .back-button {
+  background-color: #34495e;
+  color: var(--text-color-dark);
+}
+
+.dark .search-input {
+  border: 2px solid #7f8c8d;
+}
+
+.dark .sort-button {
+  background-color: #4caf50;
+}
+
+.dark .user-item button {
+  background-color: #007bff;
+}
+
+.dark .user-item button:hover {
+  background-color: #0056b3;
+}
+
+.dark .back-button {
+  background-color: #007bff;
+}
