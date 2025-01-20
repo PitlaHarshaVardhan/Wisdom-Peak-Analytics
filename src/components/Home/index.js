@@ -100,9 +100,16 @@ const Home = () => {
                       />
 
                       <div>
-                        <p>Name: {user.name}</p>
-                        <p>Email: {user.email}</p>
-                        <p>City: {user.address.city}</p>
+                        <p>
+                          <span className="spans">Name:</span> {user.name}
+                        </p>
+                        <p>
+                          <span className="spans">Email:</span> {user.email}
+                        </p>
+                        <p>
+                          <span className="spans">City:</span>{" "}
+                          {user.address.city}
+                        </p>
                       </div>
                     </div>
                     <button

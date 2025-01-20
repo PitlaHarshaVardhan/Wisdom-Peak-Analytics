@@ -126,3 +126,6 @@ p {
   display: flex;
   flex-direction: row;
 }
+.spans {
+  font-weight: bold;
+}
