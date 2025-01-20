@@ -4,12 +4,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: var(--background-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .header.dark {
-  background-color: #333;
+  background-color: var(--background-color);
   color: #fff;
 }
 
@@ -59,6 +59,7 @@ body.dark-mode {
 .icons {
   height: 30px;
   width: 30px;
+  color: grey;
 }
 
 .colors {
